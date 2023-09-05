@@ -1,3 +1,4 @@
+local utils = require("nix.utils")
 local M = {}
 
 function M.load()
@@ -6,6 +7,7 @@ function M.load()
     vim.cmd([[hi clear]])
   end
   vim.g.colors_name = "nix"
+  utils.highlight({}, {})
 end
 
 return M
