@@ -8,7 +8,7 @@ end
 
 function M.config()
   local config = {
-    Normal = { bg = colors.Normal[0] },
+    Normal = { bg = colors.Normal[1] },
   }
   for key, value in pairs(config) do
     M.highlight(key, value)
