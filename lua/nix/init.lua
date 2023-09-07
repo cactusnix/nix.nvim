@@ -7,7 +7,7 @@ function M.load()
     vim.cmd([[hi clear]])
   end
   vim.g.colors_name = "nix"
-  utils.highlight({}, {})
+  utils.config()
 end
 
 return M
